@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUTIE</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+    button {
+        padding: 20px 40px;
+      font-size: 1.2em;
+      cursor: pointer;
+      color: purple; /* text color */
+      background-image: url('https://media.istockphoto.com/id/504608682/vector/grunge-lovely-valentine-red-heart-background.jpg?s=612x612&w=0&k=20&c=8MlBoI1VYNEU_oZD5zproglR2v4ZxpUloX8d1w-FhjY='); 
+      background-color: red; /* fallback background color */
+      background-repeat: repeat;
+      background-size: contain;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <button>Click Me!</button>
+</body>
+</html>
